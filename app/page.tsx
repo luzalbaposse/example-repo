@@ -49,7 +49,7 @@ export default function Counter() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="flex items-center justify-center min-h-[50vh] bg-gradient-to-br from-indigo-900 via-purple-900 to-pink-900 text-white relative overflow-hidden"
+        className="flex items-center justify-center min-h-[50vh] bg-indigo-900 text-white relative overflow-hidden"
       >
         {/* Animated background elements */}
         <div className="absolute inset-0">
