@@ -94,7 +94,7 @@ export default function Counter() {
               transition={{ duration: 1, delay: 0.8 }}
               className="text-blue-200"
             >
-              The only counter you'll ever need
+              The only counter you&apos;ll ever need
             </motion.span>
           </motion.h1>
           <motion.div 
