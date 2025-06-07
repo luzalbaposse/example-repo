@@ -86,7 +86,7 @@ export default function Counter() {
             transition={{ duration: 1, delay: 0.2 }}
             className="text-4xl md:text-6xl lg:text-7xl font-light leading-tight bg-gradient-to-r from-white via-blue-100 to-pink-100 bg-clip-text text-transparent"
           >
-            Contando con alegría, un clic a la vez
+            Counting with joy, one click at a time
             <br />
             <motion.span 
               initial={{ opacity: 0 }}
@@ -94,7 +94,7 @@ export default function Counter() {
               transition={{ duration: 1, delay: 0.8 }}
               className="text-blue-200"
             >
-              El único contador que necesitarás
+              The only counter you'll ever need
             </motion.span>
           </motion.h1>
           <motion.div 
