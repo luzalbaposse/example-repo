@@ -18,6 +18,7 @@ export default function Counter() {
         <div className="space-y-2">
           <h1 className="text-6xl md:text-8xl font-light text-gray-900 tabular-nums">{count}</h1>
           <p className="text-sm text-gray-500 uppercase tracking-wider">Counter</p>
+          <p className="text-base text-gray-700 mt-2">This website provides a simple interactive counter. Use the buttons below to increment, decrement, or reset the value. Great for quick counts or demonstrations!</p>
         </div>
 
         {/* Controls */}
